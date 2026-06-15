@@ -1,4 +1,7 @@
 build/
+node_modules/
+.next/
+dist/
 
 # Logs
 npm-debug.log*
