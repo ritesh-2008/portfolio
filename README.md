@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with **Next.js 16**, **React 19**, **TypeScript**, and **Tailwind CSS**. Showcase your skills, projects, and experience with a beautiful, fast, and SEO-optimized site.
 
-**🚀 Live Demo:** [View on Vercel](https://vercel.com)
+**🚀 Live Demo:** [View on Vercel](https://riteshdev-two.vercel.app/)
 
 ---
 
