@@ -64,7 +64,7 @@ const skillCategories = [
     label: 'Tools & DevOps',
     icon: '🛠️',
     color: 'primary',
-    skills: ['Git', 'Docker', 'Linux', 'VSCode', 'Postman', 'GitHub Actions'],
+    skills: ['Git', 'Docker', 'Linux', 'VSCode', 'Postman', 'GitHub Actions', 'MongoDb Compass'],
     description: 'Development workflow, containerization, and CI/CD.',
     colSpan: 'lg:col-span-4',
     rowSpan: '',
