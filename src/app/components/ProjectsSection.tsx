@@ -6,67 +6,67 @@ import AppImage from '@/components/ui/AppImage';
 const projects = [
 {
   id: 1,
-  title: 'DecentraVault',
-  category: 'Web3 · DeFi',
+  title: 'Decentralized Ticketing Platform',
+  category: 'Web3 · eth',
   description:
-  'A non-custodial crypto vault built on Ethereum. Users deposit ETH, earn yield via Aave integration, and withdraw anytime. Smart contracts audited and deployed on Sepolia testnet.',
-  tech: ['Solidity', 'Hardhat', 'React', 'Ethers.js', 'IPFS'],
+  'A modern, blockchain-powered ticket booking system built with Solidity smart contracts and React frontend. BookIt enables secure, transparent event ticketing with normal and VIP ticket options.',
+  tech: ['Solidity', 'Hardhat', 'React', 'Ethers.js'],
   image:
   "https://img.rocket.new/generatedImages/rocket_gen_img_1f16da186-1768146282473.png",
   imageAlt:
   'Dark atmospheric blockchain visualization with glowing circuit patterns, deep blue-black background, neon grid lines',
-  github: 'https://github.com',
-  live: 'https://github.com',
+  github: 'https://github.com/ritesh-2008/daap',
+  live: 'https://lessbookit.netlify.app/',
   featured: true,
   status: 'Live on Testnet'
 },
 {
   id: 2,
-  title: 'TaskFlow API',
-  category: 'Backend · REST',
+  title: 'CodeCrew - Developer Collaboration Platform',
+  category: 'MERN · Full-Stack',
   description:
-  'Production-grade task management REST API. JWT auth, role-based access control, real-time notifications via WebSockets, and Redis caching. Containerized with Docker.',
-  tech: ['Node.js', 'Express', 'MongoDB', 'Redis', 'Docker'],
+  'CodeCrew is a modern web platform that brings developers together to collaborate on exciting projects. Share your ideas, find like-minded collaborators, and build amazing things as a community',
+  tech: ['Node.js', 'Express', 'MongoDB', 'React', 'Tailwind'],
   image:
   "https://img.rocket.new/generatedImages/rocket_gen_img_1cc7c93f3-1779107968230.png",
   imageAlt:
   'Code editor with dark theme showing JavaScript code, dim studio lighting, dark background, atmospheric developer setup',
-  github: 'https://github.com',
-  live: 'https://github.com',
+  github: 'https://github.com/ritesh-2008/Codecrew-1',
+  live: 'https://github.com/ritesh-2008/Codecrew-1',
   featured: false,
-  status: 'Production'
+  status: 'In Development'
 },
 {
   id: 3,
-  title: 'NFT Marketplace',
-  category: 'Web3 · Full-Stack',
+  title: 'XBot - AI-Powered Tweet Analyzer',
+  category: 'MERN · GROK AI',
   description:
-  'End-to-end NFT marketplace with minting, listing, and trading. ERC-721 contracts, IPFS metadata storage, and a React frontend with wallet connect.',
-  tech: ['Solidity', 'Web3.js', 'Next.js', 'Tailwind', 'Pinata'],
+  'A full-stack application that helps you leverage tweets using AI. Fetch tweets from any Twitter/X user and get AI-powered analysis, suggestions, and content ideas.',
+  tech: ['MERN stack', 'GROK AI API', 'tailwind'],
   image:
   "https://img.rocket.new/generatedImages/rocket_gen_img_120fc540e-1772148465741.png",
   imageAlt:
   'Abstract digital art marketplace visualization, dark moody background, glowing purple and teal geometric shapes',
-  github: 'https://github.com',
-  live: 'https://github.com',
+  github: 'https://github.com/ritesh-2008/xbot',
+  live: 'https://xbot-liart.vercel.app/',
   featured: false,
-  status: 'Open Source'
+  status: 'production-ready'
 },
 {
   id: 4,
-  title: 'DevLink',
-  category: 'Full-Stack · SaaS',
+  title: "Ritesh's Portfolio",
+  category: 'Next.js · Portfolio',
   description:
-  'Developer portfolio builder with drag-and-drop editor, custom domains, and GitHub stats integration. Built with Next.js App Router and PostgreSQL.',
-  tech: ['Next.js', 'PostgreSQL', 'Tailwind', 'Prisma', 'Vercel'],
+  'A modern, responsive portfolio website built with Next.js 16, React 19, TypeScript, and Tailwind CSS. Showcase your skills, projects, and experience with a beautiful, fast, and SEO-optimized site.',
+  tech: ['Next.js', 'React', 'Tailwind', 'TypeScript', 'Vercel'],
   image:
   "https://img.rocket.new/generatedImages/rocket_gen_img_10cfef659-1778787023536.png",
   imageAlt:
   'Code on screen in dark room, dark background, blue screen glow on developer workspace, atmospheric low lighting',
-  github: 'https://github.com',
-  live: 'https://github.com',
+  github: 'https://github.com/ritesh-2008/portfolio',
+  live: 'https://riteshdev-two.vercel.app/',
   featured: false,
-  status: 'In Development'
+  status: 'Deployed'
 }];
 
 
@@ -110,7 +110,7 @@ export default function ProjectsSection() {
             </h2>
           </div>
           <a
-            href="https://github.com"
+            href="https://github.com/ritesh-2008"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border border-border text-muted-foreground px-5 py-2.5 rounded-full font-mono text-xs uppercase tracking-widest hover:border-primary hover:text-primary transition-all duration-300">
